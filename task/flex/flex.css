@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(139, 239, 227, 0.388);
+    
+}
+
+.container{
+    width: 1100px;
+    margin:  0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 96px;
+    text-transform: uppercase;
+}
+
+.heading{
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.red{
+    color: red;
+}
+
+.text{
+    line-height: 1.8;
+    font-weight: 700;
+    color: grey;
+    padding-bottom: 56px;
+}
+
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 52px;
+    color: #fff;
+    justify-content: center;
+}
+.circle{
+    border: 1px solid;
+    padding: 20px 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+
+.circle-1{
+    background-color: rgb(56, 180, 229);
+}
+.circle-2{
+    background-color: orange;
+}
+.circle-3{
+    background-color: orangered;
+}
+.circle-4{
+    background-color: pink;
+}
+.circle-5{
+    background-color: rgb(13, 13, 117);
+}
+.circle-6{
+    background-color: rgb(7, 97, 61);
+}
+.circle-7{
+    background-color: rgb(27, 176, 116);
+}
+.circle-8{
+    background-color: rgb(103, 14, 237);
+}
+.circle-9{
+    background-color: rgb(66, 65, 65);
+}
+.icon{
+    width: 18%;
+}
+
+.i-text{
+    text-align:  left;
+    padding-left: 15px;
+    letter-spacing: .1px;
+    padding-top: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+
+.icons .icon{
+    font-weight: 600;
+}
+
+.icons .icon-v2{
+    font-weight: 800;
+} 
